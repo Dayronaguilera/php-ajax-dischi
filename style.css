@@ -1,0 +1,38 @@
+body{
+    background: #1e2d3b;
+    padding: 50px;
+}
+.card-container{
+    text-align: center;
+    color:white;
+    display: inline-block;
+    width: calc((100% / 6) - 5px);
+}
+
+.containe{
+    background: #2e3a46;
+    padding: 20px;
+    
+    
+}
+
+.containe img{
+    width: 100%;
+}
+
+.title{
+    padding: 15px;
+    line-height: 20px;
+}
+h5{
+    font-size: 25px;                
+}
+        
+.author{
+    color: #808080;
+}
+.year{
+    color: #808080;
+    display: block;
+}
+   
