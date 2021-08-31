@@ -5,6 +5,7 @@ new Vue(
         el: '#app',
         data: {
             discs: []
+            
         },
         created() { // un evento particolare, dove l'applicazione vue non è stata ancora mostrata ma è stata caricata
             
@@ -14,6 +15,7 @@ new Vue(
             })   
 
         }
+        
 
     }
 );

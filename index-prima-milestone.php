@@ -40,7 +40,7 @@ require_once __DIR__ . "/database/database.php";?>
 <?php foreach($database as $key => $value) {?>
 
     <div class="card-container">
-        <div class="containe">
+        <div class="container">
             <img  src="<?php echo "{$value['poster']}" ?>" alt="copertina">
             <div class="title"><h5><?php echo "{$value['title']}" ?></h5></div>
             <span class="author"><?php echo "{$value['author']}" ?></span>
