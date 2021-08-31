@@ -33,10 +33,10 @@ Attraverso un’altra chiamata api, filtrare gli album per genere
     <link rel="stylesheet" href="style.css">
 <body>
 
+
 <?php 
 
 require_once __DIR__ . "/database/database.php";?>
-
 
 <?php foreach($database as $key => $value) {?>
 
